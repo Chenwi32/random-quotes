@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    color: rgb(66, 68, 68);
+    font-family: 'calibri', sans-serif;
+    text-transform: capitalize;
+}
+
+.container{
+    padding: 1.5em;
+    background-color: beige;
+    border-radius: 12px;
+    flex: 0 0 50%;
+    height: 80%;
+}
+
+.container h2,
+.container h1{
+    padding: .9em;
+}
+
+.container h3{
+    padding-bottom: 0.9em;
+}
+
+#quotebtn{
+    padding: 0.8em;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px rgba(26, 25, 25, 0.801);
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: aqua;
+    font-size: 0.9em;
+}
+
+#quotebtn:hover{
+transform: scale(0.98);
+}
+
+blockquote{
+    border-left: aqua solid 1em;
+    background-color: azure;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+#quote-author{
+    margin: 1.5em;
+    padding: 1.5em;
+    color: rgb(46, 107, 240);
+    font-size: 1.5em;
+    background-color: rgb(241, 247, 246);
+}
+
+
+
+
+
+
+
+
+
+
+
